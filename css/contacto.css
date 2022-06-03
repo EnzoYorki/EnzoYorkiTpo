@@ -1,0 +1,273 @@
+
+/*--------------------------------- formularios ----------------------------------------*/
+
+.bg-form-contacto{
+    width: 100%;
+    padding: 0;
+}
+
+form{
+    padding: 8px 8px;
+}
+
+.form-contacto{
+    width: 100%;
+    padding: 30px 10px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.form-text{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06;
+    padding-top: 20px;
+}
+
+.boton-form{
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: white;
+    border: 2px solid #2095e5 ;
+    color: #2095e5;   
+}
+
+.boton-form:hover{
+    border: 2px solid lightblue;
+    color: lightblue;
+}
+
+.form-title{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #2095e5;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 5px;
+    margin: 5px 0 15px;
+    font-size: 14px;
+    border: 1px solid lightslategray;   
+}
+
+#nameform{
+    width: 100%;
+}
+
+#textarea{
+    width: 100%;
+    height: 120px
+}
+
+.flexrow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.col1-form, .col2-form{
+    width: 49%;
+}
+
+.col1-50, .col2-50{  
+    width: 100%;
+}
+
+/*--------------------------------- Mapa - contacto ----------------------------------------*/
+.contacto-section{
+    width: 100%;
+    font-size: 14px;
+    background-color: #2c3e50;
+}
+
+.contacto-container{
+    padding-top: 10px 10px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.contacto-info-row{
+    width: 100%;
+}
+
+.contacto-section-title{
+    text-align: center;
+    font-size: 1.8em;
+    padding: 20px 0 10px;
+    margin: 20px 0 15px ;
+    color: white;
+}
+
+.contacto-text-row{
+    width: max-content;
+    padding: 15px 10px;
+    margin: 0 auto;
+}
+
+.wpp-link-container{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    padding: 15px 0 10px;   
+}
+.wpp-link-container:hover{
+    color: #3672ae;
+    transition: 0.3s;
+}
+
+.wpp-link:hover {
+    color: #3672ae;
+    border: 2px solid #3672ae;
+    transition: 0.3s;
+}
+
+.wpp-link{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    padding: 10px 8px 10px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.contacto-text, .contacto-title-text{
+    color: white;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.contacto-title-text{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.contacto-icon{
+    font-size: 1.1em;
+}
+
+.contacto-mapa-row{
+    width: 100%;
+    margin: 15px auto 0;
+    padding: 10px 0 20px;
+}
+
+.contacto-mapa{
+    width: 100% ;
+    margin: 0 auto;
+    height: 300px;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1440px){
+    form{
+        padding: 10px 20px 10px;
+        width: 80%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .form-contacto{
+        width: 80%;
+        padding: 30px 20px;
+    }
+    
+    .boton-form{
+        font-size: 0.8em;  
+    }
+    
+    .form-title{
+        margin-bottom:0;
+    }
+
+    /*------------------------ Mapa - contacto -----------------------*/
+    
+    .contacto-section{
+        font-size: 15px;
+    }
+    
+    .contacto-container{
+        padding: 25px 40px;
+        margin: 0 auto;
+        width: 85%;
+        display: flex;
+    }
+    
+    .contacto-info-row{
+        width: 40%;
+        margin: auto;
+    }
+    
+    .contacto-section-title{
+        text-align: center;
+        font-size: 1.8em;
+        padding: 20px 0 10px;
+        margin:0 ;
+    }
+    
+    .contacto-text-row{
+        padding: 15px 10px;
+        margin: 0 auto;
+    }
+    
+    .wpp-link-container{
+        margin: 0 auto 15px;
+        padding: 15px 0 10px;   
+    }
+    
+    .wpp-link{
+        margin: 0 auto;
+        padding: 12px;
+        border-radius: 22px;
+        color: white;
+    }
+    
+    .contacto-text, .contacto-title-text{
+        color: white;
+        width: 100%;
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 1.4em;
+        padding-top: 5px;
+    }
+    
+    .contacto-icon{
+        font-size: 1.3em;
+        color: white;
+    }
+    .contacto-icon-wpp{
+        font-size: 1.3em;
+    }
+    
+    .contacto-mapa-row{
+        width: 60%;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .contacto-mapa{
+        margin: auto;
+        height: 350px;
+    }
+    
+}

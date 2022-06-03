@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/tratamientos.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="https://kit.fontawesome.com/09aaf4cc94.js" crossorigin="anonymous"></script>
+    <script defer src="js/index.js" ></script>
+    <title>Document</title>
+</head>
+<body> 
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo nav-link">Logo</a>
+            <button class="nav-toggle" aria-label="Abrir Menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu ">
+                <li class="nav-menu-item">
+                    <a href="index.html" class="nav-menu-link nav-link">Home</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="info.html" class="nav-menu-link nav-link">Tratamientos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="contacto.html" class="nav-menu-link nav-link">Contacto</a>
+                </li>
+                    <li class="nav-menu-item">
+                        <a href="#" class="nav-menu-link nav-link">Turnos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <menu class="main-content">
+        <div class="bg-form-contacto">
+            <div class="form-contacto">
+                <h2 class="form-title center">Dejanos tu consulta</h2>
+                <p class="form-text">Para una respuesta más rápida escribinos por WhatsApp</p> 
+                <form id="form" action="" method="POST" target="_blank">
+                    <div class="row1_form" id="nameform">
+                        <label for="firstname">Nombre y Apellido</label><br>
+                        <input id="name" type="text" name="firstname"  placeholder="Ingrese su nombre completo aquí..."> 
+                    </div> 
+                    <div class="flexrow">
+                        <div class="col1-form">
+                            <label for="phone">Celular</label><br>
+                            <input class="col1-50" id="phone" type="text" name="phone"  placeholder="Ingrese su celular aquí..."> 
+                        </div>
+                        <div class="col2-form">
+                            <label for="email">Correo Electrónico</label><br>
+                            <input class="col1-50" id="email" type="email" name="email"  placeholder="Ingrese su correo aquí..."> 
+                        </div> 
+                    </div>
+                    <textarea id="textarea" name="text" cols="30" rows="10"></textarea> <br>
+                    <input class="boton-form" type="submit" value="Enviar">
+                    <p class="warnings" id="warnings"></p>
+                </form>
+            </div>
+        </div>
+        <div class="contacto-section">             
+            <div class="contacto-container">
+                <div class="contacto-info-row">
+                    <h2 class="contacto-section-title">Contactanos</h2>
+                    <div class="contacto-text-row center">
+                        <i class="fa-regular fa-clock contacto-icon"></i>
+                        <p class="contacto-text center">
+                            Lunes a Viernes: 8 a 21hs
+                            <br>
+                            Sabados: 9 a 13hs
+                        </p>
+                    </div>
+                        <div class="wpp-link-container">
+                            
+                            <a href="whatsapp.com" target="_blank" class="wpp-link">
+                                <i class="fa-brands fa-whatsapp contacto-icon-wpp"></i>
+                                &nbsp;Pedí tu turno</a>
+                        </div>
+                    <div class="contacto-text-row center">
+                        <i class="fa-solid fa-phone contacto-icon"></i>
+                        <p class="contacto-text center"> 
+                            0983774632
+                        </p>
+                    </div>
+                    <div class="contacto-text-row center">     
+                        <i class="fa-solid fa-location-dot contacto-icon"></i>
+                        <p class="contacto-text center">
+                            Paraguay 2302, piso 2
+                            <br>
+                            Recoleta, CABA.
+                        </p>
+                    </div>
+                </div>  
+                <div class="contacto-mapa-row" >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2357467171223!2d-58.403134784236805!3d-34.59819976471419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93e2a5b849%3A0xf1a114a22f0c7c43!2sParaguay%202302%2C%20C1122%20CABA!5e0!3m2!1ses!2sar!4v1652381687643!5m2!1ses!2sar" 
+                       class="contacto-mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>    
+        </div>
+    </menu>
+
+    <footer >
+        <div class="footer-container">
+            <div class="footer-copy">
+                <p class="footer-copy-tex">@2022 PysioLife</p>
+            </div>
+            <div class="footer-icons">
+                <a class="footer-icons-icon" href="https://es-la.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a class="footer-icons-icon"  href="https://www.instagram.com/physiolifepy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+

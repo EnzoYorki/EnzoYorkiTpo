@@ -1,0 +1,207 @@
+
+.tratamientos-container{
+    margin: 10px 20px 10px 25px;
+    
+}
+
+.tratamientos-title{
+    height: 70px;
+    width: 100%;
+    margin: 15px 20px 15px 0 ;
+}
+
+.tratamientos-info-title{
+    font-size: 25px;
+    font-weight: bold; 
+    color: #2c3e50;  
+}
+
+.tratamientos-main-info p{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: inherit;
+    width: 100%;
+    max-width: 380px;
+}
+
+.tratamientos-colums{
+    display: flex;
+    margin: 20px auto;
+    
+}
+.tratamientos-col-title{
+    font-size: 15px;
+    margin: 15px 0;
+}
+.tratamientos-col-tecnicas{
+    margin-right: 15px;
+}
+.tratamientos-col-patologias{
+    margin-left: 20px;
+}
+
+.tratamientos-patologias-list, 
+.tratamientos-tecnicas-list{
+    list-style: none;
+    text-decoration: none;
+    font-size: 13.3px;
+    line-height: 1.5;
+}
+
+.tratamientos-img{
+    width: 100%;
+    padding: 20px 0;
+    display: none;
+}
+
+#imagen{
+    
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+/*--------------------------------Otros Tratamientos-----------------------*/
+
+.otros_tratamientos-title{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #2c3e50;
+    width: max-content;
+    margin: auto;
+    padding: 10px 10px 20px ;
+}
+
+.otros_tratamientos-list-item{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #2c3e50;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    padding: 0.8em 2.5em;
+    margin: 10px;
+    line-height: 1.5em;
+
+}
+
+.otros_tratamientos-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.otros_tratamientos-section{
+    margin: 25px 0 25px;
+}
+
+@media (min-width: 950px){
+    body{
+        padding-top: 70px;
+    }
+    .tratamientos-container{
+        margin: 15px auto 25px;
+        max-width: 950px;
+    }
+    
+    .tratamientos-title{
+        height: 50px;
+    }
+    .tratamientos-container-section{
+        width: 100%;
+        display: flex
+    }
+    
+    .tratamientos-info{
+        width: 490px;
+    }
+    
+    .tratamientos-col-title{
+        font-size: 15.6px;
+    }
+
+    .tratamientos-col-tecnicas{
+        margin-right: 30px;
+    }
+    .tratamientos-col-patologias{
+        margin-left: 30px;
+    }
+    
+    .tratamientos-patologias-list, 
+    .tratamientos-tecnicas-list{
+        font-size: 14px;
+    }
+    
+    .tratamientos-img{
+        width: 460px;
+        padding: 20px 0;
+        display: flex;
+    }
+    
+    #imagen{
+        
+        max-width: 390px;
+        margin: auto;
+        height: 350px;
+    }
+    /*--------------------------------Otros Tratamientos-----------------------*/
+    .otros_tratamientos-title{
+        font-size: 25px;
+        
+    }
+    
+    .otros_tratamientos-list-item{
+        font-size: 16px;
+        border-radius: 40px;
+        padding: 0.9em 1.5em;
+        margin: 10px 10px 25px 10px;
+    
+    }
+    
+}
+
+@media(max-width: 950px) {
+    .tratamientos-container-section{
+        width: 100%;
+        display: flex
+    }
+    .tratamientos-img{
+        width: 300px;
+        padding: 20px 0;
+        display: flex;
+    }
+    
+    #imagen{
+        
+        max-width: 300px;
+        margin: auto;
+        height: 280px;
+    }
+
+}
+@media (min-width: 319px) and (max-width: 768px){
+    .tratamientos-colums{
+        justify-content: space-around;
+    }
+    .tratamientos-info{
+        max-width: 380px;
+        margin: auto;
+    }
+
+    .tratamientos-img{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
