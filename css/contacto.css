@@ -179,7 +179,7 @@ input[type="text"], input[type="email"], textarea{
     height: 300px;
 }
 
-@media only screen and (min-width: 550px) and (max-width: 2000px){
+@media only screen and (min-width: 550px) and (max-width: 1440px){
     form{
         padding: 10px 20px 10px;
         width: 80%;
@@ -271,3 +271,107 @@ input[type="text"], input[type="email"], textarea{
     }
     
 }
+
+@media only screen and (min-width: 1441px){
+    form{
+        padding: 10px 20px 10px;
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .form-contacto{
+        width: 80%;
+        padding: 30px 20px;
+    }
+    
+    .boton-form{
+        font-size: 0.8em;  
+    }
+    
+    .form-title{
+        margin-bottom:0;
+    }
+
+    /*------------------------ Mapa - contacto -----------------------*/
+    
+    .contacto-section{
+        font-size: 15px;
+    }
+    
+    .contacto-container{
+        padding: 25px 40px;
+        margin: 0 auto;
+        width: 85%;
+        display: flex;
+    }
+    
+    .contacto-info-row{
+        width: 40%;
+        margin: auto;
+    }
+    
+    .contacto-section-title{
+        text-align: center;
+        font-size: 1.8em;
+        padding: 20px 0 10px;
+        margin:0 ;
+    }
+    
+    .contacto-text-row{
+        padding: 15px 10px;
+        margin: 0 auto;
+    }
+    
+    .wpp-link-container{
+        margin: 0 auto 15px;
+        padding: 15px 0 10px;   
+    }
+    
+    .wpp-link{
+        margin: 0 auto;
+        padding: 12px;
+        border-radius: 22px;
+        color: white;
+    }
+    
+    .contacto-text, .contacto-title-text{
+        color: white;
+        width: 100%;
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 1.4em;
+        padding-top: 5px;
+    }
+    
+    .contacto-icon{
+        font-size: 1.3em;
+        color: white;
+    }
+    .contacto-icon-wpp{
+        font-size: 1.3em;
+    }
+    
+    .contacto-mapa-row{
+        width: 60%;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .contacto-mapa{
+        margin: auto;
+        height: 350px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
